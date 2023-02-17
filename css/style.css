@@ -134,3 +134,47 @@ img {
         width: 100%;
     }
 }
+
+@media screen and ( max-width: 480px ) {
+    .row
+    {
+        flex-direction: column;
+    }
+
+    .lessons .col
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+    .steps
+    {
+        margin-bottom: 0;
+        background-color: #eebbc3;
+    }
+
+    .steps .col
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+    .why-us
+    {
+        background-color: black;
+        padding: 5rem 0;
+        margin-bottom: 0;
+    }
+
+    .why-us .col
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+    .row
+    {
+        gap: 5rem;
+    }
+
+}
