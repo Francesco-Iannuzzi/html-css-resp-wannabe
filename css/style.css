@@ -139,9 +139,12 @@ img {
     .row
     {
         flex-direction: column;
+        gap: 5rem;
     }
 
-    .lessons .col
+    .lessons .col,
+    .steps .col,
+    .why-us .col
     {
         margin: auto;
         width: 100%;
@@ -153,28 +156,11 @@ img {
         background-color: #eebbc3;
     }
 
-    .steps .col
-    {
-        margin: auto;
-        width: 100%;
-    }
-
     .why-us
     {
         background-color: #222222;
         padding: 5rem 0;
         margin-bottom: 0;
-    }
-
-    .why-us .col
-    {
-        margin: auto;
-        width: 100%;
-    }
-
-    .row
-    {
-        gap: 5rem;
     }
 
 }
